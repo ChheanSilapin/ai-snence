@@ -64,17 +64,6 @@ export const Landing: React.FC<LandingProps> = ({ onLogin, onRegister }) => {
             Existing User
           </Button>
         </div>
-        
-        <div className="mt-8">
-           <a 
-            href="https://ai.google.dev/gemini-api/docs/billing" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors"
-          >
-            Requires paid Google Veo API access
-          </a>
-        </div>
       </div>
     </div>
   );

@@ -15,12 +15,3 @@ export interface GenerationStatus {
   message: string;
   error?: string;
 }
-
-// Augment the existing AIStudio interface to include the methods we need.
-// This avoids conflicts with the existing window.aistudio declaration.
-declare global {
-  interface AIStudio {
-    hasSelectedApiKey: () => Promise<boolean>;
-    openSelectKey: () => Promise<void>;
-  }
-}
