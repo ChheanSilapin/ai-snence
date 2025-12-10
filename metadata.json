@@ -1,0 +1,5 @@
+{
+  "name": "Veo Noir",
+  "description": "A minimalist, monochrome text-to-video generator powered by Google Veo.",
+  "requestFramePermissions": []
+}
